@@ -1,0 +1,201 @@
+<!-- Created by Dragoş Vatră  0743503240  vatradragos@yaoo.com -->
+<!-- Start Web Page -->
+<!DOCTYPE HTML>
+<html>
+<!-- Start <head> elements -->
+<head>
+	<title>Maria Tănase - Biography - Created and built by Dragoș Vatră</title>
+    <link rel="shortcut icon" type="image/png" href="favicon/favicon.png"/>
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@48,400,0,0" />
+	<link rel="stylesheet" href="assets/bio/css/style.css"/>
+</head>
+<!-- Stop <head> elements -->
+<!-- Start <body> elements -->
+<body>
+    <!-- Start <navbar> elements -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-custom" id="navbar">
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <img src="assets/bio/img/toggle.jpg" class="img-fluid toglle-image" alt="Toggle Image">
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="nav justify-content-center" id="navbar-links">
+                <span><img src="assets/bio/img/navbar.png" class="img-fluid navbar-image" alt="Romanian Pattern"></span>
+                <li class="nav-item">
+                    <a class="nav-link active" href="home.html" target="_self">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="bio.html" target="_self">Life</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="1930.html" target="_self">1930s</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="music.html" target="_self">Songs</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="galls.html" target="_self">Gallery</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="feedback.html" target="_self">Feedback</a>
+                </li>
+                <span><img src="assets/bio/img/navbar.png" class="img-fluid navbar-image" alt="Romanian Pattern"></span>
+            </ul>
+        </div>
+    </nav>
+    <!-- Stop <navbar> elements -->
+    <!-- Start Header elements -->
+    <div class="container-fluid" id="header-container">
+        <div class="row text-center" id="header-row">
+            <div class="col" id="header-col">
+                <p class="h1" id="header-text">Life</p>
+                <span class="material-symbols-outlined" id="play" onclick="play(event)">play_circle</span>
+                <span class="material-symbols-outlined" id="pause" onclick="pause(event)">pause_circle</span>
+            </div>
+        </div>
+    </div>
+    <!-- Stop Header elements -->
+    <hr class="hr" id="header-hr">
+    <!-- Start Section elements -->
+    <div class="container-fluid" id="section-container">
+
+        <div class="cards d-flex justify-content-start" id="card-1" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="card" onmouseover="show1(event)">
+              <h2 class="card-title">Birth</h2>
+              <img src="assets/bio/img/card-image-1.jpg" class="card-image" id="card-image-1" alt="">
+              <p class="card-desc">Maria Tănase (b. September 25, 1913, Bucharest, Romania - d. June 22, 1963, Bucharest, Romania) was a Romanian performer of folk music, light, fiddle, romance and magazine theater.
+                   It was nicknamed the Master Bird by Nicolae Iorga in 1938.</p>
+              <p class="h6 text-center">Cărămidari - 1913</p>
+            </div>
+            <div class="info-card d-flex align-items-center" id="info-card-1">
+                <p class="h3 info" id="info-1">The artist Maria Tănase was born on September 25, 1913, in the Cărămidarilor slum in Bucharest (today the Children's Palace area - Tineretului Park),
+                     Kingdom of Romania, being the third child of Ana Munteanu, originally from Cârța commune, Sibiu county (Făgăraș County) and of the florist Ion Coandă Tănase (1877-1958),
+                      from the village of Mierea-Birnici, Dolj County (today Mierea, Crușeț commune, Gorj county), from the Amaradia valley. He had a sister and a brother: Aurica (b. 1910) and François (called Franz, b. 1911).</p>
+            </div>
+        </div>
+
+        <div class="cards d-flex justify-content-center" id="card-2" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="card" onmouseover="show2(event)">
+              <h2 class="card-title">Debut</h2>
+              <img src="assets/bio/img/card-image-2.jpg" class="card-image" id="card-image-2" alt="">
+              <p class="card-desc">In May 1934, he joined the "Cărăbuș" Theater. On June 2, he made his debut in the magazine Cărăbuș-Express (by N. Kirițescu) under the pseudonym Mary Atanasiu,
+                   chosen by Constantin Tănase. In the same year he printed Attic (a novel by Nello Manzatti) at the record label "Lifa Record", this being the first print of the artist.</p>
+                <p class="h6 text-center">Bucharest - 1930</p>
+            </div>
+            <div class="info-card d-flex align-items-center" id="info-card-2">
+                <p class="h3 info" id="info-2">In the summer of 1937, he printed the first folk songs at the "Columbia" record label, under the supervision of ethnomusicologists Constantin Brăiloiu and Harry Brauner,
+                     the first two being Who Loves and Leaves and I Swore Thousands of Times, which he printed with the accompaniment of Costică Vraciu from Gorj.</p>
+            </div>
+        </div>
+
+        <div class="cards d-flex justify-content-end" id="card-3" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="info-card d-flex align-items-center" id="info-card-3">
+                <p class="h3 info" id="info-3">On April 16, 1939, he left for the New York World's Fair in the Flushing Meadows of Queens.
+                     The official inauguration of the pavilions took place on May 5, 1939. Towards the end of 1940, the Iron Guard banned them from appearing in public and,
+                      by order of the Ministry of Propaganda, all existing turntable records with Maria Tănase were destroyed in the Radio Disco disco, as well as their molds from the Columbia record label,
+                       under the pretext that they distorted the authentic Romanian folklore. In March 1941 he embarked on an artistic tour of Turkey. She sings in the Istanbul Melody Revue magazine on the occasion of the inauguration of the "Taxim" Summer Theater.
+                        After the establishment of communism, in 1952 she was asked to teach at the High School of Music no. 1 in Bucharest, in a newly created folk singing department. He had students Victoria Darvai, Ileana Constantinescu, Natalia Șerbănescu.
+                         After a record break of 11 years, since 1954 he has been printing frequently on Radio and at Electrecord. In 1958 he printed at Electrecord four Romanian folk songs translated and adapted in French by Nicole Sachelarie,
+                          the artist's sister-in-law: Doïna de Dolj, La malédiction d'amour (Who loves and leaves), Danse montagnarde (Wow, bade), Tiens, tiens, tiens et na (Iac-asa). These were released on an Electrecord microsion (cat. No. EPC 138),
+                           and were then included, along with other songs by the artist sung in Romanian, on a disc released in collaboration with the French house "Le Chant du Monde". disc awarded in 1965 with the "Grand Prix du disque" (Grand Prize for Disc),
+                            awarded by the "Charles Cros" Academy in Paris.</p>
+            </div>
+            <div class="card" onmouseover="show3(event)">
+              <h2 class="card-title">Artistic activity</h2>
+              <img src="assets/bio/img/card-image-3.jpg" class="card-image" id="card-image-3" alt="">
+              <p class="card-desc">On August 17, 1938, she sang at the end of the summer courses of the People's University of Vălenii de Munte (Prahova),
+                   where the historian Nicolae Iorga nicknamed her the Master Bird. In the same year he joined the "Alhambra" Theater of Nicolae Vlădoianu.
+                    In September, he successfully released the songs I Put Basil in My Hair (a popular style song) and Habar n-ai tu (both with music composed by Ion Vasilescu) in the Alhambra Constellation magazine,
+                     which he then printed on "Columbia".</p>
+                <p class="h6 text-center">Nicolae Iorga</p>
+            </div>
+        </div>
+
+        <div class="cards d-flex justify-content-start" id="card-4" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="card" onmouseover="show4(event)">
+              <h2 class="card-title">Repertory</h2>
+              <img src="assets/bio/img/card-image-4.jpg" class="card-image" id="card-image-4" alt="">
+              <p class="card-desc">Maria Tănase had an extremely wide repertoire that included songs from all regions of Romania and from all categories: doine, wedding prayers, lullabies, game songs (choirs, Serbian, spinning, hyena), love, party , fiddlers, satirists, mourners.</p>
+              <p class="h6 text-center">Maria Tănase in 1938</p>
+            </div>
+            <div class="info-card d-flex align-items-center" id="info-card-4">
+                <p class="h3 info" id="info-4">Until the early 1940s, his repertoire consisted of Harry Brauner. A selection of 20 songs from the artist's repertoire was published by the Music Publishing House in 1963 in the booklet My Songs - Maria Tănase.</p>
+            </div>
+        </div>
+
+        <div class="cards d-flex justify-content-center" id="card-5" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="card" onmouseover="show5(event)">
+              <h2 class="card-title">Theater and film</h2>
+              <img src="assets/bio/img/card-image-5.jpg" class="card-image" id="card-image-5" alt="">
+              <p class="card-desc">He acted on the Municipal Theater stage in The Living Corpse by Lev Nikolaevich Tolstoy (1945) and in Horia by Mikhail Davidoglu (1956). She sang in Edmond Audran's Mascot (1944) and starred in Ralph Benatzky's Hollywood Sphinx (1946).</p>
+              <p class="h6 text-center">At the Municipal Theater</p>
+            </div>
+            <div class="info-card d-flex align-items-center" id="info-card-5">
+                <p class="h3 info" id="info-5">He sang in the films Se aprind facliile (1939 - film that was lost), Romania (1947), Ciulinii Bărăganului (1958) and in the musical short film Mic album muzical (filmed in 1958) which contains videos of the songs Mărioară de la Gorj,
+                     In the Fair of the Elders and Greetings, old Bucharest.</p>
+            </div>
+        </div>
+
+        <div class="cards d-flex justify-content-end" id="card-6" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="info-card d-flex align-items-center" id="info-card-6">
+                <p class="h3 info" id="info-6">In the early 1940s, Maria Tănase was the liaison and influence agent of the Special Intelligence Service (SSI) headed by Eugen Cristescu.
+                    She married the lawyer Clery Sachelarie (Clearch Raul Victor Pappadopulo-Sachelarie) in December 1950.</p>
+            </div>
+            <div class="card" onmouseover="show6(event)">
+              <h2 class="card-title">Personal life</h2>
+              <img src="assets/bio/img/card-image-6.jpg" class="card-image" id="card-image-6" alt="">
+              <p class="card-desc">In 1930 he was hired at the "7 Lei Buffet", where he met Sandu Eliad (director of the "Barașeum" Theater, now the State Jewish Theater), who would later introduce her to ethnomusicologist Harry Brauner.</p>
+              <p class="h6 text-center">Harry Brauner</p>
+            </div>
+        </div>
+
+        <div class="cards d-flex justify-content-start" id="card-7" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="card" onmouseover="show7(event)">
+              <h2 class="card-title">Awards</h2>
+              <img src="assets/bio/img/card-image-7.jpg" class="card-image" id="card-image-7" alt="">
+              <p class="card-desc">In April 1954, the Arts Department of the Ministry of Culture proposed its decoration with the Labor Order cls. a III.</p>
+              <p class="h6 text-center">At the National Theater</p>
+            </div>
+            <div class="info-card d-flex align-items-center" id="info-card-7">
+                <p class="h3 info" id="info-7">In 1955 she was awarded the State Prize, and in 1957 she received the supreme title of Artist Emeritus.</p>
+            </div>
+        </div>
+
+        <div class="cards d-flex justify-content-center" id="card-8" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1500">
+            <div class="card" onmouseover="show8(event)">
+              <h2 class="card-title">Death</h2>
+              <img src="assets/bio/img/card-image-8.jpg" class="card-image" id="card-image-8" alt="">
+              <p class="card-desc">In the spring of 1963, while on a tour of Hunedoara with Taraful Gorjului, she found out that she had lung cancer. He interrupts the tour, asking Mia Braia to replace her. He arrives home on May 2, in Bucharest.</p>
+              <p class="h6 text-center">Maria Tănase in 1963</p>
+            </div>
+            <div class="info-card d-flex align-items-center" id="info-card-8">
+                <p class="h3 info" id="info-8">He died at Fundeni Hospital on June 22, 1963, at 2:10 p.m.</p>
+            </div>
+        </div>
+        
+    </div>
+    <!-- Stop Section elements -->
+    <hr class="hr" id="footer-hr">
+<!-- Start <footer> elements -->
+    <footer class="footer text-center" id="footer-section">
+        <a href="https://dragosvatra.ro/" target="_blank" id="footer"><p class="text-center hover-underline-animation">Created by Dragoş Vatră &#169; 2021-2022 All rights reserved</p></a>
+    </footer>
+<!-- Stop <footer> elements -->
+<!-- Start <script> elements -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/@popperjs/core@2"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script type="text/javascript" src="assets/bio/js/script.js"></script>
+<!-- Stop <script> elements -->	
+</body>
+<!-- Stop <body> elements -->
+</html>
+<!-- Stop Web Page -->

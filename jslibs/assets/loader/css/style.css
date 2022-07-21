@@ -1,0 +1,169 @@
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background: #332522;
+    animation: bkcolor 10s infinite;
+}
+
+@keyframes bkcolor {
+    0% {background-color: #332522;}
+    50% {background-color: #111;}
+    100% {background-color: #332522;}
+  }
+
+#btn-container {
+    display: block;
+    margin-top: 20%;
+}
+
+#btn-title {
+    color: #eee;
+    margin: 0 0.5rem;
+    animation: fadeInDown;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+#btn-row {
+    margin: 0 0.5rem;
+    animation: fadeInUp;
+    animation-duration: 2.5s;
+    animation-fill-mode: forwards;
+}
+
+.off-on {
+    margin-left: 10px;
+    margin-right: 10px;
+    color: #eee;
+}
+
+.toggle input {
+    display: none;
+}
+
+.toggle {
+    position: relative;
+    display: inline-block;
+    width: 80px;
+    height: 30px;
+}
+
+.slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    border: 1px solid #aaa;
+    border-radius: 20px;
+    transition: all 0.4s;
+}
+
+.slider::before {
+    position: absolute;
+    content: "";
+    width: 38px;
+    height: 24px;
+    left: 2px;
+    top: 2px;
+    background-color: #eee;
+    border-radius: 20px;
+    transition: all 0.4s;
+}
+
+input:checked + .slider {
+    background-color: transparent;
+}
+
+input:checked + .slider::before {
+    transform: translateX(40px);
+}
+
+#load-container {
+    display: none;
+}
+
+.row {
+    margin: 20px 20px 20px 20px;
+}
+
+.image-1 {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: fadeOut;
+    animation-duration: 15s;
+    animation-fill-mode: forwards;
+}
+
+#title {
+    color: aliceblue;
+    text-transform: uppercase;
+    font-family: 'Dancing Script', cursive;
+    letter-spacing: 25px;
+    font-weight: bolder;
+    font-size: 2.5em;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: fadeOut;
+    animation-duration: 15s;
+    animation-delay: 10s;
+    animation-fill-mode: forwards;
+}
+
+#subtitle {
+    color: aliceblue;
+    font-family: 'Dancing Script', cursive;
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: fadeOut;
+    animation-duration: 15s;
+    animation-delay: 15s;
+    animation-fill-mode: forwards;
+}
+
+.year {
+    letter-spacing: 25px;
+    color: #fff;
+    font-size: 5em;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 35px #fff,
+    0 0 50px #fff,
+    0 0 75px #fff,
+    0 0 100px #fff,
+    0 0 125px #fff;
+    
+}
+
+#y1913 {
+    display: block;
+    margin: 0 0.5rem;
+    animation: fadeOut;
+    animation-duration: 15s;
+    animation-delay: 25s;
+    animation-fill-mode: forwards;
+}
+
+#y1963 {
+    display: block;
+    margin: 0 0.5rem;
+    animation: fadeOut;
+    animation-duration: 15s;
+    animation-delay: 35s;
+    animation-fill-mode: forwards;
+}
+
+.image-2 {
+    display: inline-block;
+    margin: 0 0.5rem;
+    animation: fadeOut;
+    animation-duration: 15s;
+    animation-delay: 45s;
+    animation-fill-mode: forwards;
+}

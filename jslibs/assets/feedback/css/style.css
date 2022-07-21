@@ -1,0 +1,263 @@
+/* Start <body> style */
+body {
+    background-color: #232427;
+}
+/* Stop <body> style */
+/* Start <navbar> style */
+.navbar-custom {
+    background-color: #111;
+    border: 1px solid;
+  padding: 10px;
+  box-shadow: 5px 5px 5px 5px #000000;
+}
+
+.navbar-toggler {
+    margin: 0 auto;
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.toglle-image {
+    border-radius: 10px;
+}
+
+#navbar-links {
+    margin: 0 auto;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+.nav-link:hover {
+    color: #fff;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+}
+
+@media only screen and (max-width: 600px) {
+    .navbar-image {
+      display: none;
+    }
+  }
+/* Stop <navbar> style */
+/* Start Header style */
+#header-row {
+    margin: 20px 20px 20px 20px;
+}
+
+#header-text {
+    font-family: 'Dancing Script', cursive;
+    color: #fff;
+    font-size: 5em;
+    font-weight: bolder;
+}
+
+#header-text::before {
+    content: url(../img/navbar.png);
+    margin-right: 20px;
+}
+
+#header-text::after {
+    content: url(../img/navbar.png);
+    margin-left: 20px;
+}
+
+#header-hr {
+    width: 50%;
+}
+
+.button {
+    width: 50px;
+    height: 50px;
+    margin: 0 auto;
+    padding: 5px 5px 5px 5px;
+    border: 1px solid #fff;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+#play {
+    margin-right: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 3em;
+}
+
+#play:hover {
+    transform: scale(1.3);
+    transition: all 0.5s ease;
+}
+
+#pause {
+    margin-left: 5px;
+    cursor: pointer;
+    color: #fff;
+    font-size: 3em;
+}
+
+#pause:hover {
+    transform: scale(1.3);
+    transition: all 0.5s ease;
+}
+/* Stop Header style */
+/* Start Section style */
+#feedback-container, #thanks-container {
+    width: 75%;
+    background-color: #000000;
+    border: 1px solid #fff;
+}
+
+#thanks-container {
+    display: none;
+}
+
+.row {
+    color: #fff;
+    margin: 20px 20px 20px 20px;
+    padding: 20px 20px 20px 20px;
+}
+
+.slider li a {
+    text-decoration: none;
+}
+
+.slider li p {
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+}
+
+.slider li p:hover {
+    color: #fff;
+    text-shadow:
+    0 0 5px #fff,
+    0 0 10px #fff,
+    0 0 20px #fff,
+    0 0 40px #0ff,
+    0 0 80px #0ff,
+    0 0 90px #0ff,
+    0 0 100px #0ff,
+    0 0 150px #0ff;
+    transition: all 0.5s ease;
+}
+
+.symbol {
+    margin-left: 20px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#symbol-1 {
+    font-size: 2em;
+}
+
+#symbol-1:hover {
+    color: #571913;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#symbol-2 {
+    font-size: 3em;
+}
+
+#symbol-2:hover {
+    color: #571913;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+#symbol-3 {
+    font-size: 4em;
+}
+
+#symbol-3:hover {
+    color: #571913;
+    cursor: pointer;
+    transition: all 0.5s ease;
+}
+
+textarea {
+    width: 100%;
+    height: 150px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    font-family: 'Dancing Script', cursive;
+    font-size: 16px;
+    font-weight: bolder;
+    resize: none;
+}
+
+#title-5 a {
+    color: #fff;
+    font-family: 'Dancing Script', cursive;
+}
+
+#button {
+    color: #fff;
+    font-weight: bolder;
+    margin: 20px 20px 20px 20px;
+    border: 1px solid #fff;
+}
+
+#button:hover {
+    text-decoration: none;
+    color: #000000;
+    background-color: #fff;
+    transition: all 0.5s linear;
+}
+
+#thanks {
+    font-family: 'Dancing Script', cursive;
+}
+/* Stop Section style */
+/* Start <footer> style */
+.hr {
+    width: 90%;
+    border: 0;
+    height: 1px;
+    background: #fff;
+    background-image: linear-gradient(to right, #ccc, #333, #ccc);
+}
+
+#footer {
+    margin: 20px 20px 20px 20px;
+}
+
+#footer p {
+    color: #fff;
+}
+
+.hover-underline-animation {
+    display: inline-block;
+    position: relative;
+    color: #fff;
+}
+  
+.hover-underline-animation:after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    transform: scaleX(0);
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #fff;
+    transform-origin: bottom right;
+    transition: transform 0.25s ease-out;
+}
+  
+.hover-underline-animation:hover:after {
+    transform: scaleX(1);
+    transform-origin: bottom left;
+}
+/* Stop <footer> style */ 
